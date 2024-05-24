@@ -1,1 +1,1 @@
-** This is the task for the Internship Admission **
+This is the task for the Internship Admission
