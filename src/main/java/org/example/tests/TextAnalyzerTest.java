@@ -1,5 +1,6 @@
-package org.example;
+package org.example.tests;
 
+import org.example.TextContentAnalyzer;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -30,7 +31,7 @@ public class TextAnalyzerTest {
 
     @Test
     public void testGetPhrases() {
-        assertEquals(22, phrases.size());  // Corrected expected value
+        assertEquals(22, phrases.size());
         assertTrue(phrases.contains("Lorem ipsum dolor"));
     }
 
